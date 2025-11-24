@@ -11,7 +11,7 @@ This agent performs:
 import os
 import requests
 from bs4 import BeautifulSoup
-from serpapi import GoogleSearch
+from serpapi.google_search import GoogleSearch
 from typing import List, Dict
 
 
